@@ -1,0 +1,29 @@
+/* Center the canvas with a gradient background */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .canvas-container {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  /* Table with neon border */
+  #table {
+    background-color: #000;
+    border: 4px solid #fff;
+    border-radius: 10px;
+  }
+  
+  /* Glowing ball and paddles effect */
+  .glow {
+    filter: drop-shadow(0 0 10px #00ffcc) drop-shadow(0 0 20px #00ffcc);
+  }
+  
